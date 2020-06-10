@@ -1,1 +1,107 @@
-blabla
+.liseré {
+  background-color: #feca07;
+}
+
+.left-bar-title {
+  background-color: #404040;
+  color: #feca07;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.left-bar-paragraph {
+  padding: 7% 15% 10% 15%;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2.5px solid #daaf11;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.icone > i {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #4a4a4a;
+  border-radius: 50%;
+  font-size: 37px;
+  width: 65px;
+  height: 65px;
+  align-items: center;
+}
+
+.icone {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3em;
+  margin: 30px 40px;
+}
+
+h3 span {
+  text-decoration: underline;
+  text-decoration-color: #feca07;
+  text-underline-position: under;
+}
+
+h1 span {
+  color: #feca07;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.partie_droite {
+  padding: 4% 5% 0 5%;
+  width: 60%;
+}
+
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-pencil-alt,
+.fa-circle,
+.fa-dot-circle {
+  color: #feca07;
+}
+
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-pencil-alt {
+  font-size: 2em;
+}
+
+.fa-circle {
+  font-size: 0.6em;
+}
+
+.date {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.a_propos {
+  text-align: justify;
+  margin-bottom: 15em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4a4a4a;
+}
+
+.profile-picture {
+  width: 200px;
+}
