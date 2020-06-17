@@ -11,7 +11,7 @@
 }
 
 .left-bar-paragraph {
-  padding: 7% 15% 10% 15%;
+  padding: 7% 10% 10% 10%;
 }
 
 .photo {
@@ -56,13 +56,19 @@ h1 span {
 }
 
 h1 {
+  padding-top: 7%;
   font-size: 80px;
   font-weight: lighter;
+  color: black;
 }
 
-.partie_droite {
-  padding: 4% 5% 0 5%;
-  width: 60%;
+h2 {
+  border-bottom: 3px solid #feca07;
+  color: black;
+}
+
+h3 {
+  padding-bottom: 8%;
 }
 
 .fa-graduation-cap,
@@ -76,26 +82,33 @@ h1 {
 .fa-graduation-cap,
 .fa-briefcase,
 .fa-pencil-alt {
-  font-size: 2em;
+  font-size: 35px;
+  padding: 15px;
+  margin-right: 20px;
 }
 
 .fa-circle {
   font-size: 0.6em;
+  margin-right: 20px;
+}
+
+.fa-dot-circle {
+  margin-right: 20px;
 }
 
 .date {
   font-weight: bold;
   color: #4a4a4a;
+  display: flex;
+  align-items: baseline;
 }
 
 .a_propos {
   text-align: justify;
-  margin-bottom: 15em;
+  margin-bottom: 37em;
 }
 
 p,
-h1,
-h2,
 h3,
 h4,
 h5 {
@@ -104,4 +117,11 @@ h5 {
 
 .profile-picture {
   width: 200px;
+}
+
+.col-3,
+.col-9,
+.col-6 {
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
