@@ -131,7 +131,7 @@ h5 {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 29px;
   }
 
   h3 {
@@ -139,7 +139,7 @@ h5 {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   h4 {
@@ -163,10 +163,16 @@ h5 {
   }
 
   .date {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .fa-pencil-alt {
     margin-right: 0px;
+  }
+
+  .icone-content {
+    font-size: 25px;
+    padding: 0;
+    margin: 7px;
   }
 }
