@@ -44,15 +44,15 @@
   margin: 30px 40px;
 }
 
+h1 span {
+  color: #feca07;
+  font-weight: bold;
+}
+
 h3 span {
   text-decoration: underline;
   text-decoration-color: #feca07;
   text-underline-position: under;
-}
-
-h1 span {
-  color: #feca07;
-  font-weight: bold;
 }
 
 h1 {
@@ -71,29 +71,22 @@ h3 {
   padding-bottom: 8%;
 }
 
-.fa-graduation-cap,
-.fa-briefcase,
-.fa-pencil-alt,
-.fa-circle,
-.fa-dot-circle {
-  color: #feca07;
-}
-
-.fa-graduation-cap,
-.fa-briefcase,
-.fa-pencil-alt {
+.icone-content {
   font-size: 35px;
   padding: 15px;
   margin-right: 20px;
+  color: #feca07;
 }
 
-.fa-circle {
+.circle {
   font-size: 0.6em;
   margin-right: 20px;
+  color: #feca07;
 }
 
-.fa-dot-circle {
+.dot-circle {
   margin-right: 20px;
+  color: #feca07;
 }
 
 .date {
@@ -119,9 +112,71 @@ h5 {
   width: 200px;
 }
 
-.col-3,
-.col-9,
-.col-6 {
+.partie-droite {
+  padding-left: 6%;
+  padding-right: 4%;
+}
+
+.cv-element-content,
+.cv-element-date {
   padding-top: 40px;
   padding-bottom: 25px;
+}
+
+/* responsive */
+
+@media all and (max-width: 480px) {
+  .a_propos {
+    margin-bottom: 3em;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .dot-circle {
+    margin-right: 3px;
+  }
+
+  .circle {
+    margin-right: 3px;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .fa-pencil-alt {
+    margin-right: 0px;
+  }
+
+  .contact {
+    flex: auto;
+    order: 3;
+  }
+
+  .loisirs {
+    flex: auto;
+    order: 1;
+  }
 }
