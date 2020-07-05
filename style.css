@@ -98,7 +98,7 @@ h3 {
 
 .a_propos {
   text-align: justify;
-  margin-bottom: 37em;
+  margin-bottom: 55em;
 }
 
 p,
@@ -168,15 +168,5 @@ h5 {
 
   .fa-pencil-alt {
     margin-right: 0px;
-  }
-
-  .contact {
-    flex: auto;
-    order: 3;
-  }
-
-  .loisirs {
-    flex: auto;
-    order: 1;
   }
 }
